@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"] - flaggged.io.service</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/> *@
+    @* <link rel="stylesheet" href="~/css/site.css"/> *@
+    
+    <meta charset="utf-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+    		<meta name="description" content="">
+    		<meta name="keywords" content="">
+    		<meta name="author" content="nwikechisom.github.io">
+    
+    		<link rel="stylesheet" href="~/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    		<link rel="stylesheet" href="~/assets/css/style.css">
+    		<link rel="stylesheet" href="~/assets/css/utilities.css">
+    
+    		<link rel="stylesheet" href="~/assets/css/custom.css">
+    
+    		<link rel="stylesheet" href="~/assets/vendor/fullPage.js/dist/jquery.fullpage.min.css" type="text/css">
+    		<link rel="stylesheet" href="~/assets/vendor/slick/slick.min.css" type="text/css">
+    		<link rel="stylesheet" href="~/assets/vendor/vegas/vegas.min.css" type="text/css">
+    		<link rel="stylesheet" href="~/assets/vendor/fontawesome/css/all.min.css" type="text/css">
+    		<link rel="stylesheet" href="~/assets/vendor/themify-icons/css/themify-icons.css" type="text/css">
+    
+    		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700%7CMRoboto:300,400,500,700" rel="stylesheet">
+    
+    		<link rel="shortcut icon" href="~/assets/images/favicon.ico">
+</head>
+<body>
+@* <header> *@
+@*     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"> *@
+@*         <div class="container"> *@
+@*             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">flaggged.io.service</a> *@
+@*             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" *@
+@*                     aria-expanded="false" aria-label="Toggle navigation"> *@
+@*                 <span class="navbar-toggler-icon"></span> *@
+@*             </button> *@
+@*             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between"> *@
+@*                 <ul class="navbar-nav flex-grow-1"> *@
+@*                     <li class="nav-item"> *@
+@*                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a> *@
+@*                     </li> *@
+@*                     <li class="nav-item"> *@
+@*                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+@*                     </li> *@
+@*                 </ul> *@
+@*                 <partial name="_LoginPartial"/> *@
+@*             </div> *@
+@*         </div> *@
+@*     </nav> *@
+@* </header> *@
+@* <div class="container"> *@
+@*     <main role="main" class="pb-3"> *@
+@*         @RenderBody() *@
+@*     </main> *@
+@* </div> *@
+
+
+
+@RenderBody()
+
+@* <footer class="border-top footer text-muted"> *@
+@*     <div class="container"> *@
+@*         &copy; 2022 - flaggged.io.service - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+@*     </div> *@
+@* </footer> *@
+
+<script src="~/assets/vendor/jquery/dist/jquery.min.js"></script>
+		<script src="~/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="~/assets/vendor/fullPage.js/dist/scrolloverflow.min.js"></script>
+		<script src="~/assets/vendor/fullPage.js/dist/jquery.fullpage.min.js"></script>
+		<script src="~/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="~/assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
+		<script src="~/assets/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+		<script src="~/assets/vendor/granim.js/dist/granim.min.js"></script>
+		<script src="~/assets/vendor/slick/slick.min.js"></script>
+		<script src="~/assets/vendor/vegas/vegas.min.js"></script>
+		<script src="~/assets/vendor/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js"></script>
+
+<script src="~/assets/js/main.js"></script>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
